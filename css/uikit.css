@@ -2004,7 +2004,7 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-button-secondary {
-  background-color: #222;
+  background-color: #887569;
   color: #fff;
   border: 1px solid transparent;
 }
@@ -2270,7 +2270,7 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-section-secondary {
-  background: #222;
+  background: #887569;
 }
 /* Overlap modifier
  ========================================================================== */
@@ -2919,7 +2919,7 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-tile-secondary {
-  background: #222;
+  background: #887569;
 }
 /* ========================================================================
    Component: Card
@@ -3052,7 +3052,7 @@ select.uk-form-width-xsmall {
  * Secondary
  */
 .uk-card-secondary {
-  background: #222;
+  background: #887569;
   color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
@@ -3060,7 +3060,7 @@ select.uk-form-width-xsmall {
   color: #fff;
 }
 .uk-card-secondary.uk-card-hover:hover {
-  background-color: #222;
+  background-color: #887569;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 /* Size modifier
@@ -3264,7 +3264,7 @@ select.uk-form-width-xsmall {
  */
 .uk-marker {
   padding: 5px;
-  background: #222;
+  background: #887569;
   color: #fff;
   border-radius: 500px;
 }
@@ -4423,7 +4423,7 @@ ul.uk-nav-sub {
 /* Divider modifier
  ========================================================================== */
 /*
- * Set gutter 
+ * Set gutter
  */
 .uk-subnav-divider {
   margin-left: -41px;
@@ -5677,7 +5677,7 @@ ul.uk-nav-sub {
   box-sizing: border-box;
   width: 270px;
   padding: 20px 20px;
-  background: #222;
+  background: #887569;
   /* 3 */
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -7311,7 +7311,7 @@ ul.uk-nav-sub {
   color: #1e87f0 !important;
 }
 .uk-text-secondary {
-  color: #222 !important;
+  color: #887569 !important;
 }
 .uk-text-success {
   color: #32d296 !important;
@@ -7643,7 +7643,7 @@ iframe.uk-cover {
   background-color: #1e87f0;
 }
 .uk-background-secondary {
-  background-color: #222;
+  background-color: #887569;
 }
 /* Size
  ========================================================================== */
