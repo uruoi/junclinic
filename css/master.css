@@ -8,11 +8,11 @@ body {
   "... ...... ...... ...... ..." 0px
   "... header header header ..." 72px
   "... slider slider slider ..." 288px
-  "... spnavi spnavi spnavi ..." 
+  "... spnavi spnavi spnavi ..."
   "... navi01 navi02 navi03 ..."
   "... navi04 navi05 navi06 ..."
   "... center center center ..." 1fr
-  "... ...... ...... ...... ..." 10px
+  "... ctr    ctr    ctr    ..." 300px
   "... footer footer footer ..." 300px
   "... ...... ...... ...... ..."
   /0 1fr 1fr 1fr 0;
@@ -56,6 +56,9 @@ navi06 {
 }
 main {
   grid-area: center;
+}
+ctr {
+  grid-area: ctr;
 }
 footer {
   grid-area: footer;
