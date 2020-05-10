@@ -18,31 +18,32 @@
         <a class="uk-logo" href=""><img src="img/logo@2x.png" width="44px" alt="ジュンクリニック"></a>
       </div>
       <div class="uk-navbar-right uk-background-secondary">
-        <a class="uk-navbar-toggle uk-margin-left uk-margin-right uk-light" uk-navbar-toggle-icon uk-toggle="target: #toggle-animation; animation: uk-animation-slide-top" href="#"></a>
+        <a href="#offcanvas-nav" class="uk-margin-left uk-margin-right uk-light" uk-toggle>Open</a>
+        <div id="offcanvas-nav" uk-offcanvas="overlay: true">
+          <div class="uk-offcanvas-bar">
+
+            <ul class="uk-nav uk-nav-default">
+              <li class="uk-active"><a href="#">Active</a></li>
+              <li class="uk-parent">
+                <a href="#">Parent</a>
+                <ul class="uk-nav-sub">
+                  <li><a href="#">Sub item</a></li>
+                  <li><a href="#">Sub item</a></li>
+                </ul>
+              </li>
+              <li class="uk-nav-header">Header</li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: table"></span> Item</a></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Item</a></li>
+              <li class="uk-nav-divider"></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: trash"></span> Item</a></li>
+            </ul>
+
+          </div>
+        </div>
       </div>
     </nav>
   </header>
-  <div id="toggle-animation" class="uk-margin-small" hidden>
-    <div class="uk-width-1-2@s  uk-background-secondary">
-    <ul class="uk-nav-primary uk-nav-parent-icon" uk-nav>
-        <li class="uk-active"><a href="#">Active</a></li>
-        <li class="uk-parent">
-            <a href="#">Parent</a>
-            <ul class="uk-nav-sub">
-                <li><a href="#">Sub item</a></li>
-                <li><a href="#">Sub item</a></li>
-            </ul>
-        </li>
-        <li class="uk-parent">
-            <a href="#">Parent</a>
-            <ul class="uk-nav-sub">
-                <li><a href="#">Sub item</a></li>
-                <li><a href="#">Sub item</a></li>
-            </ul>
-        </li>
-        <li><a href="#">Item</a></li>
-    </ul>
-</div></div>
+
   <main class="uk-background-muted uk-padding">
     main
   </main>
