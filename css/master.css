@@ -8,7 +8,9 @@ body {
   "... ...... ...... ...... ..." 0px
   "... header header header ..." 72px
   "... slider slider slider ..." 300px
-  "... spnavi spnavi spnavi ..." 
+  "... spnavi spnavi spnavi ..."
+  "... navi01 navi02 navi03 ..."
+  "... navi04 navi05 navi06 ..."
   "... center center center ..." 1fr
   "... ...... ...... ...... ..." 10px
   "... footer footer footer ..." 300px
@@ -23,6 +25,34 @@ hero {
 }
 spnavi {
   grid-area: spnavi;
+}
+navi01 {
+  grid-area: navi01;
+  border-right: 1px solid #887569;
+  border-bottom: 1px solid #887569;
+}
+navi02 {
+  grid-area: navi02;
+  border-right: 1px solid #887569;
+  border-bottom: 1px solid #887569;
+}
+navi03 {
+  grid-area: navi03;
+  border-bottom: 1px solid #887569;
+}
+navi04 {
+  grid-area: navi04;
+  border-right: 1px solid #887569;
+  border-bottom: 1px solid #887569;
+}
+navi05 {
+  grid-area: navi05;
+  border-right: 1px solid #887569;
+  border-bottom: 1px solid #887569;
+}
+navi06 {
+  grid-area: navi06;
+  border-bottom: 1px solid #887569;
 }
 main {
   grid-area: center;
