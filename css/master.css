@@ -15,7 +15,7 @@ body {
   "... ...... ...... ...... ..." 10px
   "... footer footer footer ..." 300px
   "... ...... ...... ...... ..."
-  /0 auto auto auto 0;
+  /0 1fr 1fr 1fr 0;
 }
 header {
   grid-area: header;
