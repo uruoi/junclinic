@@ -13,8 +13,8 @@ body {
   "... navi04 navi05 navi06 ..."
   "... center center center ..." 1fr
   "... ctr    ctr    ctr    ..." 300px
-  "... footer footer footer ..." 300px
-  "... ...... ...... ...... ..."
+  "... footer footer footer ..." 
+  "... ...... ...... ...... ..." 0px
   /0 1fr 1fr 1fr 0;
 }
 header {
@@ -62,6 +62,7 @@ ctr {
 }
 footer {
   grid-area: footer;
+  background-color: #dfdad6;
 }
 
 .spmenu {
