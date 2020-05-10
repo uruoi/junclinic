@@ -18,10 +18,31 @@
         <a class="uk-logo" href=""><img src="img/logo@2x.png" width="44px" alt="ジュンクリニック"></a>
       </div>
       <div class="uk-navbar-right uk-background-secondary">
-        <a class="uk-navbar-toggle uk-margin-left uk-margin-right uk-light" uk-navbar-toggle-icon href="#"></a>
+        <a class="uk-navbar-toggle uk-margin-left uk-margin-right uk-light" uk-navbar-toggle-icon uk-toggle="target: #toggle-animation; animation: uk-animation-slide-top" href="#"></a>
       </div>
     </nav>
   </header>
+  <div id="toggle-animation" class="uk-margin-small" hidden>
+    <div class="uk-width-1-2@s  uk-background-secondary">
+    <ul class="uk-nav-primary uk-nav-parent-icon" uk-nav>
+        <li class="uk-active"><a href="#">Active</a></li>
+        <li class="uk-parent">
+            <a href="#">Parent</a>
+            <ul class="uk-nav-sub">
+                <li><a href="#">Sub item</a></li>
+                <li><a href="#">Sub item</a></li>
+            </ul>
+        </li>
+        <li class="uk-parent">
+            <a href="#">Parent</a>
+            <ul class="uk-nav-sub">
+                <li><a href="#">Sub item</a></li>
+                <li><a href="#">Sub item</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Item</a></li>
+    </ul>
+</div></div>
   <main class="uk-background-muted uk-padding">
     main
   </main>
