@@ -6,8 +6,8 @@ body {
   display: grid;
   grid-template:
   "... ...... ...... ...... ..." 0px
-  "... header header header ..." 80px
-  "... ...... ...... ...... ..." 10px
+  "... header header header ..." 75px
+  "... slider slider slider ..." 1fr
   "... center center center ..." 1fr
   "... ...... ...... ...... ..." 10px
   "... footer footer footer ..." 300px
@@ -16,6 +16,9 @@ body {
 }
 header {
   grid-area: header;
+}
+hero {
+  grid-area: slider;
 }
 main {
   grid-area: center;
