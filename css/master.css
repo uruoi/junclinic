@@ -6,7 +6,7 @@ body {
   display: grid;
   grid-template:
   "... ...... ...... ...... ..."
-  "... header header header ..." 150px
+  "... header header header ..." 80px
   "... ...... ...... ...... ..." 10px
   "... center center center ..." 1fr
   "... ...... ...... ...... ..." 10px
