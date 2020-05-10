@@ -6,7 +6,7 @@ body {
   display: grid;
   grid-template:
   "... ...... ...... ...... ..." 0px
-  "... header header header ..." 75px
+  "... header header header ..." 72px
   "... slider slider slider ..." 1fr
   "... center center center ..." 1fr
   "... ...... ...... ...... ..." 10px
@@ -25,4 +25,8 @@ main {
 }
 footer {
   grid-area: footer;
+}
+
+.spmenu {
+  margin: 16px;
 }
