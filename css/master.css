@@ -111,6 +111,9 @@ padding: 0 auto;
 .font85 {
   font-size: 85%;
 }
+.font75 {
+  font-size: 75%;
+}
 /*div要素全体にリンクをつけるために必要な要素*/
 .linkbox {
     position: relative;
