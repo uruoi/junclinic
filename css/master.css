@@ -102,6 +102,12 @@ padding: 0 auto;
   font-feature-settings: "palt" 1;
   font-weight: 600;
 }
+.highlight {
+    background: linear-gradient(transparent 50%, #f9f9f9 0%);
+    line-height: 1.3em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .spmenu {
   margin: 16px;
 }
