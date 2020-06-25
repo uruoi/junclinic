@@ -3,7 +3,6 @@ body {
   width: 100%;
   margin: 0 auto;
   min-height: 100vh;
-  overflow: hidden;
   display: grid;
   grid-template:
   "... ...... ...... ...... ..." 0px
@@ -24,47 +23,58 @@ header {
 }
 hero {
   grid-area: slider;
+  overflow: hidden;
 }
 spnavi {
   grid-area: spnavi;
+  overflow: hidden;
 }
 navi01 {
   grid-area: navi01;
   border-right: 1px solid #887569;
   border-bottom: 1px solid #887569;
+  overflow: hidden;
 }
 navi02 {
   grid-area: navi02;
   border-right: 1px solid #887569;
   border-bottom: 1px solid #887569;
+  overflow: hidden;
 }
 navi03 {
   grid-area: navi03;
   border-bottom: 1px solid #887569;
+  overflow: hidden;
 }
 navi04 {
   grid-area: navi04;
   border-right: 1px solid #887569;
   border-bottom: 1px solid #887569;
+  overflow: hidden;
 }
 navi05 {
   grid-area: navi05;
   border-right: 1px solid #887569;
   border-bottom: 1px solid #887569;
+  overflow: hidden;
 }
 navi06 {
   grid-area: navi06;
   border-bottom: 1px solid #887569;
+  overflow: hidden;
 }
 main {
   grid-area: center;
+  overflow: hidden;
 }
 ctr {
   grid-area: ctr;
+  overflow: hidden;
 }
 footer {
   grid-area: footer;
   background-color: #dfdad6;
+  overflow: hidden;
 }
 
 .top288 {
