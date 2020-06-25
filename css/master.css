@@ -76,6 +76,16 @@ footer {
   background-color: #dfdad6;
   overflow: hidden;
 }
+#floatingmenu {
+display: block;
+width: 100%;
+position: fixed;
+left: 0px;
+bottom: 0px;
+z-index: 9999;
+text-align: center;
+padding: 0 auto;
+}
 
 .top288 {
   margin-top: -288px;
