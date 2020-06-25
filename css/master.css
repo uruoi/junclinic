@@ -3,6 +3,7 @@ body {
   width: 100%;
   margin: 0 auto;
   min-height: 100vh;
+  overflow: hidden;
   display: grid;
   grid-template:
   "... ...... ...... ...... ..." 0px
@@ -17,12 +18,9 @@ body {
   "... ...... ...... ...... ..." 0px
   /0 1fr 1fr 1fr 0;
 }
-.wrap {
-  width: auto;
-	overflow: hidden;
-}
 header {
   grid-area: header;
+  overflow: hidden;
 }
 hero {
   grid-area: slider;
