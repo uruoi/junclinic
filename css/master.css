@@ -1,7 +1,6 @@
 body {
   font-size:  2rem;
   width: auto;
-  min-width: 1024px;
   margin: 0 auto;
   min-height: 100vh;
   display: grid;
@@ -17,6 +16,9 @@ body {
   "... footer footer footer ..."
   "... ...... ...... ...... ..." 0px
   /0 1fr 1fr 1fr 0;
+}
+.wrap {
+	overflow: hidden;
 }
 header {
   grid-area: header;
