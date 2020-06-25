@@ -80,6 +80,9 @@ footer {
 .spmenu {
   margin: 16px;
 }
+.font95 {
+  font-size: 95%;
+}
 /*div要素全体にリンクをつけるために必要な要素*/
 .linkbox {
     position: relative;
