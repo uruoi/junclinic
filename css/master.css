@@ -87,6 +87,9 @@ text-align: center;
 padding: 0 auto;
 }
 
+.bg-1 {
+  background-color: #dfdad6;
+}
 .top288 {
   margin-top: -288px;
 }
